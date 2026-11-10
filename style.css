@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f8fd;
+    color: #244c70;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #398bc9;
+    margin-bottom: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #244c70;
+    margin: 10px;
+}
+
+main {
+    text-align: center;
+    padding: 100px 20px;
+    flex: 1;
+}
+
+main h2 {
+    margin-bottom: 20pc;
+    text-align: center;
+}
+
+main p {
+    margin-bottom: 25px;
+}
+
+.tombol {
+    background-color: #75b9ef;
+    color: white;
+    padding: 13px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 16px;
+    border: 1px solid #b5d5ef;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    resize: vertical;
+}
+
+button {
+    background-color: #75b9ef;
+    color: white;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#daftarpesan {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: auto;
+}
